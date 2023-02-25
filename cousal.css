@@ -1,0 +1,37 @@
+/* for coursal */
+
+
+
+.carousel-control-prev,.carousel-control-next{
+    background-color: #020202;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 10%;
+    transform: translateY(-20%);
+}
+@media screen and (min-width:576px){
+.cardp{
+    width: 195px;
+    width: fit-content;
+    margin: 3.5%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+}
+.cardp{
+    border-radius: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+   
+    
+}
+h5{
+  text-align: center;
+  color: #e1e1e1;
+  text-decoration: none;
+  justify-content: space-between;
+  text-shadow: #212529;
+  padding: auto;
+}

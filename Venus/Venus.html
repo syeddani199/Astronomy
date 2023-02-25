@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../images/logo.png">
+    <!-- CSS Link-->
+    <link rel="stylesheet" href="Venus.css">
+	<link rel="stylesheet" href="cousal.css">
+	<script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Font-Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Jquerry CDN Link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Javascript Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+		<!--  Jquerry CDN-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Astronomy | VENUS</title>
+</head>
+
+		<!-- Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg sticky-top">
+			<div class="container-fluid">
+			<a class="navbar-brands ms-4" href="#"><img src="../images/logo.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav mx-auto">
+			<li class="nav-item">
+			<a class="nav-link" href="../home.html">Home</a>
+			</li>
+			<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-hover="dropdown" href="#" id="middlenavbarDropdown"
+			role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			Planets
+		</a>
+		<div class="dropdown-menu">
+		<div class="container-fluid">
+		<div class="row row-cols-2">
+		<a class="text-white text-decoration-none" href="../Mercury/Mercury.html">
+		<div class="col">Mercury</div>
+		</a>
+		<a class="text-white text-decoration-none" href="../Venus/Venus.html">
+		<div class="col ms-2">Venus</div>
+		</a>
+		<a class="text-white text-decoration-none" href="../Earth/Earth.html">
+		<div class="col">Earth</div>
+		</a>
+		<a class="text-white text-decoration-none" href="../Mars/Mars.html">
+		<div class="col ms-2">Mars</div>
+		</a>
+		</div>
+		<div class="row row-cols-2">
+		<a class="text-white text-decoration-none" href="../Jupiter/Jupiter.html">
+		<div class="col">Jupiter</div>
+		</a>
+		<a class="text-white text-decoration-none" href="../Saturn/Saturn.html">
+		<div class="col ms-2">Saturn</div>
+		</a>
+		<a class="text-white text-decoration-none" href="../Uranus/Uranus.html">
+		<div class="col">Uranus</div>
+		</a>
+		<a class="text-white text-decoration-none" href="../Neptune/Neptune.html">
+		<div class="col">Neptune</div>
+		</a>
+			</div>
+			</div>
+			</div>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="../Contact US/contactus.html">Contact US</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-hover="dropdown" href="#" id="navbarDropdown"
+				role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				About
+				</a>
+				<div class="dropdown-menu">
+				<div class="col my-2 mx-2">
+				<ul class="list-unstyled">
+				<li><a href="../BigBangTheory/BigBangTheory.html">Big Bang Theory</a></li><br>
+				<li><a href="../EvolutionofEarth/EvolutionofEarth.html">Evolution Of Earth</a></li>
+				</ul> 
+				</div>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../Observation/Observations.html">Observations</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+			</nav>
+		
+    <!--Venus Background-->
+	<div class="container-fluid d-flex justify-content-center align-items-end" style="background: url(Venus-images/venus-bg.jpg); height: 500px; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <h1 class="text-white animation1"><b>Venus</b></h1>
+    </div>
+
+		<!-- Card Body-->
+		<div class="card h-auto card-one" id="mercury-card" style="max-width: 100%;">
+		<div class="row g-0 mb-3">
+		<div class="col-md-2 ms-4 mt-4">
+		<img src="Venus-images/venus.png" class="img-fluid rounded-start animation2" alt="..." width="250px" height="250px">
+		</div>
+		<div class="col-md-8">
+		<div class="card-body">
+		<h4 class="card-title ms-3 animation3" ><b>Venus</b></h4>
+		<p class="card-text ms-3 animation3" style="text-align: justify;">Venus is the second planet from the Sun and is Earth’s closest planetary neighbor.</p>
+		<p class="card-text ms-3 animation3" style="text-align: justify;">It’s one of the four inner, terrestrial (or rocky) planets, and it’s often called Earth’s twin because it’s similar in size and density. These are not identical twins, however – there are radical differences between the two worlds.</p>
+		<h5 class="ms-3 animation3"> 
+		Go farther:
+		<b class="Explore"><a  class="btn1" href="#">Explore Venus In Depth ›</a></b>
+		</h5>
+		</div>
+		</div>
+		</div>
+		<div class="card-footer h-auto w-auto">
+		<div class="container-fluid">
+		<div class="row ms-5 gx-5 animation4">
+		<div class="col-sm distance">
+		<img src="Venus-images/distance.png" alt="" width="50px" height="50px" style="float: left;">
+		<p><b>Distance from Sun :</b>&nbsp;108.2 million km</p>
+		</div>
+		<div class="col-sm period">
+		<img src="Venus-images/orbital-period.png" alt="" width="40px" height="40px" style="float: left;"> 
+		<p><b>Orbital period :</b>&nbsp;225 days</p>
+		</div>
+		<div class="col-sm radius">
+		<img src="Venus-images/radius.png" alt="" width="40px" height="40px" style="float: left;">
+		<p><b>Radius :</b>&nbsp;6,051.8 km</p>
+		</div>
+		</div>
+		<div class="row ms-5 mt-5 gx-5 animation5">
+		<div class="col-sm mass">
+		<img src="Venus-images/weight.png" alt="" width="40px" height="40px" style="float: left;">
+		<p><b>Mass :</b>&nbsp;4.867 × 10^24 kg (0.815 M⊕)</p>
+		</div>
+		<div class="col-sm s-area">
+		<img src="Venus-images/area.png" alt="" width="40px" height="40px" style="float: left;">
+		<p><b>Surface area :</b>&nbsp;460.2 million km²</p>
+		</div>
+		<div class="col-sm lod">
+		<img src="Venus-images/lod.png" alt="" width="50px" height="50px" style="float: left;">
+		<p><b>Length of Day :</b>&nbsp;243d 0h 0m</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+        <!-- Card Body End-->
+
+		<!-- Middle Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4c4d4e;">
+			<div class="container-fluid d-flex justify-content-end">
+				
+			  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#middlenavbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			
+			  <div class="collapse navbar-collapse" id="middlenavbarNav">
+				<ul class="navbar-nav mx-auto">
+				  <li class="nav-item" id="nav-item">
+					<button type="button" class="btn btn-secondary btn-" id="btn1">Atmosphere</button>
+				  </li>&nbsp;
+				  <li class="nav-item" id="nav-item">
+					<button type="button" class="btn btn-secondary" id="btn2">Formation</button>
+				  </li>&nbsp;
+				  <li class="nav-item" id="nav-item">
+					<button type="button" class="btn btn-secondary" id="btn3">Structure</button>
+				  </li>&nbsp;
+				  <li class="nav-item" id="nav-item ">
+					<button type="button" class="btn btn-secondary" id="btn4">Magnetosphere</button>
+				  </li>&nbsp;
+				  <li class="nav-item" id="nav-item">
+					<button type="button" class="btn btn-secondary" id="btn5">Surface</button>
+				  </li>&nbsp;
+				  <li class="nav-item" id="nav-item">
+					<button type="button" class="btn btn-secondary" id="btn6">Orbit & Rotation</button>
+				  </li>&nbsp;
+				  <li class="nav-item" id="nav-item">
+					<button type="button" class="btn btn-secondary" id="btn7">Size & Distance</button>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+		  <!-- Middle Navbar End-->
+
+		     <!-- Content Body-->
+			 <div class="container-fluid"> 
+			 <div id="container-1" class="content-style" style="display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Atmosphere </b> </h2>
+				<img src="Venus-images/atmosphere.png" alt="" width="40%" height="300px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto; padding-top: 2%;">The Soviet Union landed 10 probes on the surface of Venus, but even among the few that functioned after landing, the successes were short-lived – the longest survivor lasted two hours; the shortest, 23 minutes. Photos snapped before the landers fried show a barren, dim, and rocky landscape, and a sky that is likely some shade of sulfur yellow.Venus’ atmosphere is one of extremes. With the hottest surface in the solar system, apart from the Sun itself, Venus is hotter even than the innermost planet, charbroiled Mercury. To outlive the short-lived Venera probes, your rambling sojourn on Venus would presumably include unimaginably strong insulation as temperatures push toward 900 degrees Fahrenheit (482 Celsius). You would need an extremely thick, pressurized outer shell to avoid being crushed by the weight of the atmosphere – which would press down on you as if you were 0.6 miles (1 kilometer) deep in the ocean.</p>
+			  </div>
+			  <div id="container-2" class="content-style" style="display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Formation </b> </h2>
+				<img src="Venus-images/formation.png" alt="" width="40%" height="300px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto;">A critical question for scientists who search for life among the stars: How do habitable planets get their start? The close similarities of early Venus and Earth, and their very different fates, provide a kind of test case for scientists who study planet formation. Similar size, similar interior structure, both harboring oceans in their younger days. Yet one is now an inferno, while the other is the only known world – so far – to play host to abundant life. The factors that set these planets on almost opposite paths began, most likely, in the swirling disk of gas and dust from which they were born. Somehow, 4.6 billion years ago that disk around our Sun accreted, cooled, and settled into the planets we know today. Several might well have moved in closer, or farther out, as the solar system formed. Better knowledge of the formation history of Venus could help us better understand Earth’s – and those of rocky planets around other stars.</p>
+			  </div>
+			</div>
+			<div id="container-3" class="content-style" style="height: auto; display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Structure </b> </h2>
+				<img src="Venus-images/structure.png" alt="" width="60%" height="300px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto; padding-top: 2%;">If we could slice Venus and Earth in half, pole to pole, and place them side by side, they would look remarkably similar. Each planet has an iron core enveloped by a hot-rock mantle; the thinnest of skins forms a rocky, exterior crust. On both planets, this thin skin changes form and sometimes erupts into volcanoes in response to the ebb and flow of heat and pressure deep beneath.
+					Other possible similarities will require further investigation – and perhaps another visit to a planet that has hosted many Earth probes, both in orbit and (briefly) on the surface. On Earth, the slow movement of continents over thousands and millions of years reshapes the surface, a process known as “plate tectonics.” Something similar might have happened on Venus early in its history. Today a key element of this process could be operating: subduction, or the sliding of one continental “plate” beneath another, which can also trigger volcanoes. Subduction is believed to be the first step in creating plate tectonics.</p>
+			  </div>
+			  <div id="container-4" class="content-style" style="height: auto; display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Magnetosphere </b> </h2>
+				<img src="Venus-images/magntosphere.png" alt="" width="70%" height="300px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto; padding-top: 2%;">Even though Venus is similar in size to Earth and has a similar-sized iron core, the planet does not have its own internally generated magnetic field. Instead, Venus has what is known as an induced magnetic field. This weak magnetic field is created by the interaction of the Sun's magnetic field and the planet's outer atmosphere. Ultraviolet light from the Sun excites gases in Venus' outermost atmosphere; these electrically excited gases are called ions, and thus this region is called the ionosphere (Earth has an ionosphere as well). The solar wind – a million-mile-per-hour gale of electrically charged particles streaming continuously from the Sun – carries with it the Sun's magnetic field. When the Sun's magnetic field interacts with the electrically excited ionosphere of Venus, it creates or induces, a magnetic field there. This induced magnetic field envelops the planet and is shaped like an extended teardrop, or the tail of a comet, as the solar wind blows past Venus and outward into the solar system.</p>
+			  </div>
+			  <div id="container-5" class="content-style" style="height: auto; display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Surface </b> </h2>
+				<img src="Venus-images/surface.png" alt="" width="70%" height="300px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto; padding-top: 2%;">The broiling surface of Venus has been a topic of heated discussion among planetary scientists. The traditional picture includes a catastrophic, planetwide resurfacing between 350 and 750 million years ago. In other words, Venus appears to have completely erased most traces of its early surface. The causes: volcanic and tectonic forces, which could include surface buckling and massive eruptions. But newer estimates made with help from computer models paint a different portrait. While the same forces would be at work, resurfacing would be piecemeal over an extended time. The average age of surface features could be as young as 150 million years, with some older surfaces mixed in.</p>
+			  </div>
+			  <div id="container-6" class="content-style" style="height: auto; display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Orbit-and-Rotation </b> </h2>
+				<img src="Venus-images/orbitandrotaion.jpg" alt="" width="70%" height="500px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto; padding-top: 2%;">Spending a day on Venus would be quite a disorienting experience – that is, if your ship or suit could protect you from temperatures in the range of 900 degrees Fahrenheit (475 Celsius). For one thing, your “day” would be 243 Earth days long – longer even than a Venus year (one trip around the Sun), which takes only 225 Earth days. For another, because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days. And by the way, the Sun would rise in the west and set in the east, because Venus spins backward compared to Earth.
+					While you’re waiting, don’t expect any seasonal relief from the unrelenting temperatures. On Earth, with its spin axis tilted by about 23 degrees, we experience summer when our part of the planet (our hemisphere) receives the Sun’s rays more directly – a result of that tilt. In winter, the tilt means the rays are less direct. No such luck on Venus: Its very slight tilt is only three degrees, which is too little to produce noticeable seasons.</p>
+			  </div>
+			  <div id="container-7" class="content-style" style="height: auto; display: none;">
+				<h2 style="text-align: center; padding-top: 1%; background-color: #4c4d4e; color: white;"> <b> Size-and-Distance </b> </h2>
+				<img src="Venus-images/sizeanddistance.png" alt="" width="50%" height="500px" style="margin-left: auto; margin-right: auto; display: block;">
+				<p style="text-align: justify; width: 70%; display: block; margin-left: auto; margin-right: auto; padding-top: 2%;">WOur nearness to Venus is a matter of perspective. The planet is nearly as big around as Earth – 7,521 miles (12,104 kilometers) across, versus 7,926 miles (12,756 kilometers) for Earth. From Earth, Venus is the brightest object in the night sky after our own Moon. The ancients, therefore, gave it great importance in their cultures, even thinking it was two objects: a morning star and an evening star. That’s where the trick of perspective comes in.</p>
+			  </div>
+			  <!-- Content Body End-->
+
+		<!-- Container Body-->
+		<div class="container-fluid discovery d-flex justify-content-center align-items-center text-white w-auto" style="background-color: #212529; height: 20vh;">
+		<h4 class="animation6">Discovery</h4>
+		</div>
+		<div class="col text-white lh-5 animation7" style=" background-color: #212529; text-align: justify;"><p class="d-flexbox justify-content-center" style="padding-left: 20%; padding-right: 20%; height: auto;">Venus is one of the planets visible with the unaided eye. Because it has always been easy to see, it’s impossible to say who discovered Venus. In fact, after the Moon and the Sun, Venus is the brightest object in the sky – it’s likely ancient people thousands of years ago knew about it<span id="dots">...</span> <span id="more" style="display: none;">You can’t really talk about the discovery of Venus, but historians do know when observations of Venus were first written down. In fact, one of the oldest surviving astronomical documents is a Babylonian text that talks about Venus in 1600 BC. It contains a 21-year record of Venus’ appearances. Venus played a part in the mythology of many ancient peoples, including the Mayans and the Greeks.
+            The first person to point a telescope at Venus was Galileo Galilei in 1610. Even with his crude telescope, Galileo realized that Venus goes through phases like the Moon. These observations helped support the Copernican view that the planets orbited the Sun, and not the Earth as previously believed.</span>
+		</p><center><button class="btn btn-secondary btnanimation8" onclick="myFunction()" id="myBtn" style="margin-bottom: 1%;">Read more</button></center>
+	    </div>
+		<!-- Container Body End-->
+      
+		<!-- Card Body-->
+		<div class="container card-container my-5">
+		<div class="card card-one card-1" style="width: 16rem;">
+			<div class="card-body" style="text-align: justify;">
+			  <h5 class="card-title text-center fw-bold">Namesake</h5>
+			  <p class="card-text pt-1">The ancient Romans could easily see seven bright objects in the sky: the Sun, the Moon, and the five brightest planets (Mercury, Venus, Mars, Jupiter, and Saturn).</p>
+			</div>
+		  </div>
+		  <div class="card card-two" style="width: 16rem;">
+			<div class="card-body">
+			  <h5 class="card-title text-center fw-bold">Moons</h5>
+			  <p class="card-text text-center pt-1">Venus has no moons.</p>
+			</div>
+		  </div>
+		  <div class="card card-three" style="width: 16rem;">
+			<div class="card-body">
+			  <h5 class="card-title text-center fw-bold">Rings</h5>
+			  <p class="card-text text-center pt-1">Venus has no rings.</p>
+			</div>
+		  </div>
+		  <div class="card card-four" style="width: 16rem;">
+			<div class="card-body" style="text-align: justify;">
+			  <h5 class="card-title text-center fw-bold">Potential for Life</h5>
+			  <p class="card-text pt-1">Thirty miles up (about 50 kilometers), temperatures range from 86 to 158 Fahrenheit (30 to 70 Celsius), a range that, even at its higher-end, could accommodate Earthly life.</p>
+			</div>
+		  </div>
+		</div>
+		<!-- Card Body End-->
+
+		<!-----------------CAROUSEL---------------------------->
+
+		<!-----1---->
+		<div class="d-flex justify-content-center" style="background: #4c4d4e;">
+			<div class="box2 w-75 p-3" >
+			  <!---Small-->
+			  <div id="carouselExampleControlsSmallCarousel"
+				class="carousel carousel-dark slide d-block d-sm-block d-lg-none d-md-none"  data-bs-touch="false" data-bs-interval="false">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../Mercury/Mercury.html" class="cardp">
+						<img src="../images/mercury.png" alt="mercury" width="150px">
+						<h5>Mercury</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center d-flex justify-content-center">
+						<a href="../all/Venus.html" class="cardp">
+						<img src="../images/venus.png"  alt="venus" width="150px">
+						<h5>Venus</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../earth/earth.html" class="cardp">
+						<img src="../images/earth.png"   alt="earth" width="150px">
+						<h5>Earth</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../Mars/Mars.html" class="cardp">
+						<img src="../images/mars.png"   alt="mars" width="150px">
+						<h5>Mars</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../Jupiter/Jupiter.html" class="cardp">
+						<img src="../images/jupitar.png"   alt="jupitar" width="150px">
+						<h5>Jupiter</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../saturn/saturn.html" class="cardp">
+						<img src="../images/saturn.png"   alt="saturn" width="150px">
+						<h5>Saturn</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../Uranus/Uranus.html" class="cardp">
+						<img src="../images/uranus.png" alt="uranus" width="150px">
+						<h5>Uranus</h5>
+					  </a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="card-wrapper d-flex justify-content-center">
+						<a href="../Neptune/Neptune.html" class="cardp">
+						<img src="../images/naptune.png"  alt="naptune" width="150px">
+						<h5>Neptune</h5>  
+					</a>
+					</div>
+				  </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" style="margin-top: 14%;" data-bs-target="#carouselExampleControlsSmallCarousel"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" style="margin-top: 14%;" data-bs-target="#carouselExampleControlsSmallCarousel"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			<!--large-->
+			<div id="carouselExampleControls" class="carousel carousel-dark slide d-none d-sm-none d-lg-block d-md-none"
+			  data-bs-touch="false" data-bs-interval="false">
+			  <div class="carousel-inner">
+				<div class=" carousel-item active">
+				  <div class="card-wrapper d-flex justify-content-center">
+					<a href="../Mercury/Mercury.html" class="cardp">
+					  <img src="../images/mercury.png" alt="mercury" width="165px">
+					  <H5 >Mercury</H5>
+					</a>
+					
+					<a href="../Venus/Venus.html" class="cardp">
+					  <img src="../images/venus.png" alt="venus" width="165px">
+				 <H5 >Venus</H5>	</a>
+					
+					<a href="../earth/earth.html" class="cardp">
+					  <img src="../images/earth.png" alt="earth" width="165px">
+				<H5 >Earth</H5>
+			</a>  
+				  </div>
+				</div>
+				<!----2nd---->
+				<div class="carousel-item ">
+				  <div class="card-wrapper  d-flex justify-content-center">
+					<a href="../Mars/Mars.html" class="cardp">
+					  <img src="../images/mars.png" alt="mars" width="165px">
+						  <H5  >Mars</H5></a>
+				
+					<a href="../Jupiter/Jupiter.html" class="cardp">
+					  <img src="../images/jupitar.png"  alt="jupitar" width="165px">
+				<H5  >Jupiter</H5>	</a>
+					
+					<a href="../saturn/saturn.html" class="cardp">
+					  <img src="../images/saturn.png" alt="saturn" width="165px">
+				 <H5  >Saturn</H5>
+				</a> 
+				  </div>
+				</div>
+				<!--3rd-->
+				<div class="carousel-item">
+				  <div class="card-wrapper d-flex justify-content-center">
+					<a href="../Uranus/Uranus.html" class="cardp">
+					  <img src="../images/uranus.png" alt="uranus" width="165px">
+				 <H5  >Uranus</H5>	</a> 
+					
+				 <a href="../Neptune/Neptune.html" class="cardp">
+					  <img src="../images/naptune.png" alt="naptune" width="165px">
+					  <H5 >Neptune</H5>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			  <button class="carousel-control-prev"  style="margin-top: 12%;" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		
+			  </button>
+			  <button class="carousel-control-next"  style=" margin-top: 12%;"data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				
+			  </button>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+			<!-- Footer -->
+			<footer class="bg text-center text-lg-start text-white h-auto w-auto"><br>
+			<!-- Grid container -->
+			<div class="container p-4">
+			<!--Grid row-->
+			<div class="row my-4">
+			<!--Grid column-->
+			<div class="col-lg-3 col-md-6 mb-4 mb-md-0 footerlinkanimation">
+			<div class="rounded-circle shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+			<img src="../images/footer-logo.png" height="130px" width="130px" alt="footerimg" loading="lazy" />
+			</div>
+			<p class="text-center footerlinkanimation">The Study of Everything In The Universe Beyond Earth's Atmosphere.</p>
+			<ul class="list-unstyled d-flex flex-row justify-content-center">
+			<li>
+			<a class="text-white px-2 footerlinkanimation" href="https://www.facebook.com/">
+			<i class="fab fa-facebook-square"></i>
+			</a>
+			</li>
+			<li>
+			<a class="text-white px-2 footerlinkanimation" href="https://www.instagram.com/">
+			<i class="fab fa-instagram"></i>
+			</a>
+			</li>
+			<li>
+			<a class="text-white ps-2 footerlinkanimation" href="https://www.youtube.com/">
+			<i class="fab fa-youtube"></i>
+			</a>
+			</li>
+			</ul>
+	
+			</div>
+			<!--Grid column-->
+	
+			<!--Grid column-->
+			<div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="padding-left: 8%;">
+			<h5 class="text-uppercase mb-4 text-lg-start">Planets</h5>
+	
+			<ul class="list-unstyled">
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Mercury/Mercury.html" class="text-white text-decoration-none">Mercury</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Venus/Venus.html" class="text-white text-decoration-none">Venus</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Earth/Earth.html" class="text-white text-decoration-none">Earth</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Mars/Mars.html" class="text-white text-decoration-none">Mars</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Jupiter/Jupiter.html" class="text-white text-decoration-none">Jupiter</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Saturn/Saturn.html" class="text-white text-decoration-none">Saturn</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Uranus/Uranus.html" class="text-white text-decoration-none">Uranus</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-earth-americas me-2"></i><a href="../Neptune/Neptune.html" class="text-white text-decoration-none">Neptune</a>
+			</li>
+			</ul>
+			</div>
+			<!--Grid column-->
+	
+			<!--Grid column-->
+			<div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="padding-left: 4%;">
+			<h5 class="text-uppercase mb-4 text-lg-start">More About</h5>
+			<ul class="list-unstyled">
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-circle-info me-2"></i><a href="../BigBangTheory/BigBangTheory.html" class="text-white text-decoration-none">Big Bang Theory</a>
+			</li>
+			<li class="mb-2 footerlinkanimation">
+			<i class="fa-solid fa-circle-info me-2"></i><a href="../EvolutionofEarth/EvolutionofEarth.html" class="text-white text-decoration-none">Evolution of Earth</a>
+			</li>
+			</ul>
+			</div>
+			<!--Grid column-->
+	
+			<!--Grid column-->
+			<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+			<h5 class="text-uppercase mb-4 text-lg-start">Contact</h5>
+	
+			<ul class="list-unstyled">
+			<li class="footerlinkanimation">
+			<p><i class="fas fa-map-marker-alt pe-2"></i>Warsaw, 57 Street, Poland</p>
+			</li>
+			<li class="footerlinkanimation">
+			<p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
+			</li>
+			<li class="footerlinkanimation">
+			<p><i class="fas fa-envelope pe-2 mb-0"></i>contact@Astronomy.com</p>
+			</li>
+			</ul>
+			</div>
+			<!----Grid column---->
+			</div>
+			<!------Grid row------>
+			</div>
+			<!---- Grid container -------->
+	
+			<!-------- Copyright -------->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2023 Copyright:
+			<a class="text-white" href="Astronomy.html">Astronomy</a>
+			</div>
+			<!-------- Copyright -------->
+			</footer>
+			<!-------- Footer End -------->
+	
+
+<!-------- JAVASCRIPT ------>
+<script src="../java.js" ></script>
+	</body>
+</html>
